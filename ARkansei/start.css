@@ -90,3 +90,22 @@ h2
 {
   text-align: center;
 }
+
+.title2{
+  position: relative;
+  padding: 0.35em 0.5em;
+  background: #f0762a;
+  color: #f7f4f4;
+}
+
+.title2::before{
+  content: " ";
+  position: absolute;
+  top: -16px;
+  left: 0;
+  width: -webkit-calc(100% - 12px);
+  width: calc(100% - 12px);
+  height: 0;
+  border: solid 8px transparent;
+  border-bottom-color: #f17528;
+}
