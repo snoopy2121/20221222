@@ -78,13 +78,16 @@ body {
   background: #f1640c;
   transition: .3s;
   left:0;
+    font-size: 20px;
 }
 .button013 a:hover {
   color: rgb(255, 195, 110);
+    font-size: 20px;
 }
 .button013 a:hover:before {
   width: 100%;
   z-index: -1;
+    font-size: 20px;
 }
 
 h2
